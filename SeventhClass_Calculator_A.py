@@ -16,8 +16,9 @@ class Calculator:
     def div(self):
         return self.a / self.b
 
-calculator = Calculator(10, 2)
-print(calculator.sum())
-print(calculator.sub())
-print(calculator.mul())
-print(calculator.div())
+if __name__ == '__main__':
+    calculator = Calculator(10, 2)
+    print(calculator.sum())
+    print(calculator.sub())
+    print(calculator.mul())
+    print(calculator.div())

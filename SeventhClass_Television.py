@@ -15,21 +15,24 @@ class Television:
         if self.on:
             self.channel -= 1
 
-television = Television()
-print(television.on)
+print(__name__)
+if __name__ == '__main__':
 
-television.power()
-print(television.on)
+    television = Television()
+    print(television.on)
 
-television.power()
-print(television.on)
+    television.power()
+    print(television.on)
 
-television.power()
-print(television.channel)
+    television.power()
+    print(television.on)
 
-television.channel_up()
-television.channel_up()
-print(television.channel)
+    television.power()
+    print(television.channel)
 
-television.channel_down()
-print(television.channel)
+    television.channel_up()
+    television.channel_up()
+    print(television.channel)
+
+    television.channel_down()
+    print(television.channel)
