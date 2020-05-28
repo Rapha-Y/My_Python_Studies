@@ -1,0 +1,3 @@
+Josuke,7,6,7,5
+Koichi,8,10,7,8
+Okuyasu,2,2,2,1
